@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/engbreakfast4"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Banana Sour Cream Bread"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+              android:text="I know, you're probably thinking, 'Oh no! Another banana bread recipe!' But this one is a little different: the sour cream makes this one so moist it melts in your mouth. The flavor is just wonderful! This one is great for gift giving and holidays. Loaves freeze well."
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Ingredients"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="1/4 cup white sugar\n\n1 teaspoon ground cinnamon\n\n3/4 cup butter\n\n3 cups white sugar\n\n3 eggs\n\n6 very ripe bananas, mashed\n\n1 (16 ounce) container sour cream\n\n2 teaspoons ground cinnamon\n\n1/2 teaspoon salt\n\n3 teaspoons baking soda\n\n4 1/2 cups all-purpose flour\n\n1 cup chopped walnuts (optional)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#00897B"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Directions"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Preheat oven to 300 degrees F (150 degrees C). Grease four 7x3 inch loaf pans. In a small bowl, stir together 1/4 cup white sugar and 1 teaspoon cinnamon. Dust pans lightly with cinnamon and sugar mixture.\n\nIn a large bowl, cream butter and 3 cups sugar. Mix in eggs, mashed bananas, sour cream, vanilla and cinnamon. Mix in salt, baking soda and flour. Stir in nuts. Divide into prepared pans.\n\nBake for 1 hour, until a toothpick inserted in center comes out clean."
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

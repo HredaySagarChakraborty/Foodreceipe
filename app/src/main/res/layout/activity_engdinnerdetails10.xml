@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/engdinner10"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Chef John's Turkey Sloppy Joes"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="This made for a very enjoyable lunch, and kept warm in a slow cooker, could also work very nicely for a Super Bowl party. It tastes enough like a traditional beef Sloppy Joe to provide that satisfying comfort food fix, yet seems much lighter."
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Ingredients"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+               android:text="2 tablespoons butter\n\n1 onion, dicedsalt and ground black pepper to taste\n\n1 1/4 pounds ground turkey\n\n1/2 cup cold water\n\n3/4 cup ketchup1 \n\n1/2 tablespoons brown sugar\n\n1/2 teaspoon cayenne pepper, or to taste\n\n1/2 teaspoon Worcestershire sauce\n\n1/2 teaspoon unsweetened cocoa powder\n\n1 cup water, or as needed\n\n6 hamburger buns, split\n\n1/3 cup chopped green onions\n\n1/2 cup shredded white Cheddar cheese"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#00897B"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Directions"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+              android:text="Melt butter in a heavy skillet over medium heat. Add onion; cook and stir until onion starts to brown, about 5 minutes. Season with salt and black.
+\n\nMix ground turkey and 1/2 cup cold water into onions. Cook and stir, breaking up the meat, until it begins to brown, about 2 minutes. Add ketchup, brown sugar, cayenne pepper, salt, and black pepper. Cook and stir until liquid is reduced, about 5 minutes. Stir in Worcestershire sauce and cocoa powder. Cook, stirring frequently and adding up to 1 cup water if needed, until meat is cooked through and liquid is reduced and thick, 20 to 30 minutes.
+\n\nPreheat the oven's broiler and set the oven rack about 6 inches from the heat source. Toast hamburger buns until golden, 2 to 3 minutes.
+\n\nRemove turkey mixture from the heat and mix in green onions and Cheddar cheese. Serve on toasted hamburger buns."
+
+                android:textColor="#000"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

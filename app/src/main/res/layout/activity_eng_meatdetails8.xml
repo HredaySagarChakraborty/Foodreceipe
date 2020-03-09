@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/engmeat8"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Sarge's EZ Pulled Pork BBQ"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+              android:text="Too busy to cook? A slow cooker and a can of beef broth gets you started on this recipe. 'Low and slow' cooking gives you a roast that shreds with a fork. As an added bonus you get great stock for beef gravy as a by-product! Serve with your favorite BBQ sauce and plenty of coleslaw."
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Ingredients"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+            android:text="1 (5 pound) pork butt roast\n\n
+salt and pepper to taste\n\n
+1 (14 ounce) can beef broth\n\n
+¼ cup brewed coffee"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#00897B"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Directions"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+              android:text="Step 1\n
+Cut roast in half. Rub each half with salt and pepper, and place in the slow cooker. Pour broth and coffee over the meat.
+
+ \n\nStep 2\n
+Turn the slow cooker to Low, and cover. Cook for 6 to 8 hours, or until the roast is fork tender.
+
+ \n\nStep 3\n
+Carefully remove the roast to a cutting board. Pull the meat off the bone with a fork. You may also chop it with a cleaver afterwards, if you like it really finely cut."
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

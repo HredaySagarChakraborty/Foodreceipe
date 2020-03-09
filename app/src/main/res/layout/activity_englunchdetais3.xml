@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/englunch3"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Homemade Hamburger Buns"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+               android:text="I've gotten a thousand request for these. We're going to make our own, and not only are these going to be the perfect shape, they're going to taste way better than anything that comes out of a plastic bag. The total time takes almost 4 hours, but the actual amount of work involved is maybe 10 minutes."
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Ingredients"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="1 (.25 ounce) package active dry yeast (such as Fleischmann's ActiveDry Yeast®)\n\n1 pound all-purpose flour, or as needed - divided\n\n1 cup warm water (105 degrees F/41 degrees C)\n\n1 large egg\n\n3 tablespoons butter, melted\n\n3 tablespoons white sugar\n\n1 1/4 teaspoons salt\n\n1 teaspoon olive oil\n\n1 egg, beaten\n\n1 tablespoon milk\n\n1 teaspoon sesame seeds, or as needed"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#00897B"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Directions"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+               android:text="Line a baking sheet with a silicone mat or parchment paper.
+\n\nPlace yeast into bowl of a large stand mixer; whisk in 1/2 cup flour and warm water until smooth. Let stand until mixture is foamy, 10 to 15 minutes.
+\n\nWhisk 1 egg, melted butter, sugar, and salt thoroughly into yeast mixture. Add remaining flour (about 3 cups).
+\n\nFit a dough hook onto stand mixer and knead the dough on low speed until soft and sticky, 5 to 6 minutes. Scrape sides if needed. Poke and prod the dough with a silicone spatula; if large amounts of dough stick to the spatula, add a little more flour.
+\n\nTransfer dough onto a floured work surface; dough will be sticky and elastic but not stick to your fingers. Form the dough lightly into a smooth, round shape, gently tucking loose ends underneath.
+\n\nWipe out stand mixer bowl, drizzle olive oil into the bowl, and turn dough over in the bowl several times to coat surface thinly with oil. Cover bowl with aluminum foil. Let dough rise in a warm place until doubled, about 2 hours.
+\n\nTransfer dough to a floured work surface and pat to flatten bubbles and form into a slightly rounded rectangle of dough about 5x10 inches and about 1/2 inch thick. Dust dough lightly with flour if needed. Cut dough into 8 equal pieces. Form each piece into a round shape, gently tucking ends underneath as before.
+\n\nUse your hands to gently pat and stretch the dough rounds into flat disc shapes about 1/2 inch thick. Arrange buns about 1/2 inch apart on prepared baking sheet. Dust buns very lightly with flour. Drape a piece of plastic wrap over the baking sheet (do not seal tightly). Let buns rise until doubled, about 1 hour.
+\n\nPreheat oven to 375 degrees F (190 degrees C).
+\n\nBeat 1 egg with milk in a small bowl, using a fork, until mixture is thoroughly combined. Very gently and lightly brush tops of buns with egg wash without deflating the risen dough. Sprinkle each bun with sesame seeds.
+\n\nBake in the preheated oven until lightly browned on top, 15 to 17 minutes. Buns will stick together slightly where they touch. Let cool completely, tear the buns apart, and slice in half crosswise to serve."
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

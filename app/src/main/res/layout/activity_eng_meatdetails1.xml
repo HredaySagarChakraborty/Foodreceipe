@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/engmeat1"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Roasted Rack of Lamb"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="I have had this recipe for a long time, and always enjoy making it. You can also do the same thing with beef or pork"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Ingredients"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+               android:text="1/2 cup fresh bread crumbs\n\n2 tablespoons minced garlic\n\n2 tablespoons chopped fresh rosemary\n\n1 teaspoon salt\n\n1/4 teaspoon black pepper\n\n2 tablespoons olive oil\n\n1 (7 bone) rack of lamb, trimmed and frenched\n\n1 teaspoon salt\n\n1 teaspoon black pepper\n\n2 tablespoons olive oil\n\n1 tablespoon Dijon mustard"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#00897B"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Directions"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+            android:text="Preheat oven to 450 degrees F (230 degrees C). Move oven rack to the center position. Watch Now
+\n\nIn a large bowl, combine bread crumbs, garlic, rosemary, 1 teaspoon salt and 1/4 teaspoon pepper. Toss in 2 tablespoons olive oil to moisten mixture. Set aside. Watch Now
+\n\nSeason the rack all over with salt and pepper. Heat 2 tablespoons olive oil in a large heavy oven proof skillet over high heat. Sear rack of lamb for 1 to 2 minutes on all sides. Set aside for a few minutes. Brush rack of lamb with the mustard. Roll in the bread crumb mixture until evenly coated. Cover the ends of the bones with foil to prevent charring. Watch Now
+\n\nArrange the rack bone side down in the skillet. Roast the lamb in preheated oven for 12 to 18 minutes, depending on the degree of doneness you want. With a meat thermometer, take a reading in the center of the meat after 10 to 12 minutes and remove the meat, or let it cook longer, to your taste. Let it rest for 5 to 7 minutes, loosely covered, before carving between the ribs. Watch Now"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

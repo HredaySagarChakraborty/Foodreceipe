@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hreday.sagar.foodreceipe">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/food"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/food"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EngFishDeatils.EngFishdetails2"></activity>
+        <activity android:name=".EngFishDeatils.EngFishdetails1" />
+        <activity android:name=".EnglishActivity6" />
+        <activity android:name=".EnglishMeatDetails.EngMeatdetails9" />
+        <activity android:name=".EnglishMeatDetails.EngMeatdetails8" />
+        <activity android:name=".EnglishMeatDetails.EngMeatdetails7" />
+        <activity android:name=".EnglishMeatDetails.EngMeatdetails6" />
+        <activity android:name=".EnglishMeatDetails.EngMeatdetails5" />
+        <activity android:name=".EnglishMeatDetails.EngMeatdetails4" />
+        <activity android:name=".EnglishMeatDetails.EngMeatdetails3" />
+        <activity android:name=".EnglishMeatDetails.EngMeatdetails2" />
+        <activity android:name=".EnglishMeatDetails.EngMeatdetails1" />
+        <activity android:name=".EngActivity5.EnglishActivity5" />
+        <activity android:name=".EnglishRiceDetails.Engricesetails1" />
+        <activity android:name=".EnglishRiceDetails.Engrice9" />
+        <activity android:name=".EnglishRiceDetails.Engrice8" />
+        <activity android:name=".EnglishRiceDetails.Engrice7" />
+        <activity android:name=".EnglishRiceDetails.Engrice6" />
+        <activity android:name=".EnglishRiceDetails.Engrice5" />
+        <activity android:name=".EnglishRiceDetails.Engrice4" />
+        <activity android:name=".EnglishRiceDetails.Engrice3" />
+        <activity android:name=".EnglishRiceDetails.Engrice2" />
+        <activity android:name=".EngActivity4.EnglishActivity4" />
+        <activity android:name=".EngDinnerDetails.Engdinnerdetails12" />
+        <activity android:name=".EngDinnerDetails.Engdinnerdetails11" />
+        <activity android:name=".EngDinnerDetails.Engdinnerdetails10" />
+        <activity android:name=".EngDinnerDetails.Engdinnerdetails9" />
+        <activity android:name=".EngDinnerDetails.Engdinnerdetails8" />
+        <activity android:name=".EngDinnerDetails.Engdinnerdetails7" />
+        <activity android:name=".EngDinnerDetails.Engdinnerdetails6" />
+        <activity android:name=".EngDinnerDetails.Engdinnerdetails5" />
+        <activity android:name=".EngDinnerDetails.Engdinnerdetails4" />
+        <activity android:name=".EngDinnerDetails.Engdinnerdetails3" />
+        <activity android:name=".EngDinnerDetails.Engdinnerdetails2" />
+        <activity android:name=".EngDinnerDetails.Engdinnerdetails1" />
+        <activity android:name=".EngActivity3.EnglishActivity3" />
+        <activity android:name=".EnglishLunchDetails.Englunchdetais12" />
+        <activity android:name=".EnglishLunchDetails.Englunchdetais11" />
+        <activity android:name=".EnglishLunchDetails.Englunchdetais10" />
+        <activity android:name=".EnglishLunchDetails.Englunchdetais9" />
+        <activity android:name=".EnglishLunchDetails.Englunchdetais8" />
+        <activity android:name=".EnglishLunchDetails.Englunchdetais7" />
+        <activity android:name=".EnglishLunchDetails.Englunchdetais6" />
+        <activity android:name=".EnglishLunchDetails.Englunchdetais5" />
+        <activity android:name=".EnglishLunchDetails.Englunchdetais4" />
+        <activity android:name=".EnglishLunchDetails.Englunchdetais3" />
+        <activity android:name=".EnglishLunchDetails.Englunchdetais2" />
+        <activity android:name=".EnglishLunchDetails.Englunchdetais1" />
+        <activity android:name=".EnglishBreakfastDetails.EnglisgDetails12" />
+        <activity android:name=".EnglishBreakfastDetails.EnglisgDetails11" />
+        <activity android:name=".EnglishBreakfastDetails.EnglisgDetails10" />
+        <activity android:name=".EnglishBreakfastDetails.EnglisgDetails9" />
+        <activity android:name=".EnglishBreakfastDetails.EnglisgDetails8" />
+        <activity android:name=".EnglishBreakfastDetails.EnglisgDetails7" />
+        <activity android:name=".EnglishBreakfastDetails.EnglisgDetails6" />
+        <activity android:name=".EnglishBreakfastDetails.EnglisgDetails5" />
+        <activity android:name=".EnglishBreakfastDetails.EnglishDetails4" />
+        <activity android:name=".EnglishBreakfastDetails.EnglisgDetails3" />
+        <activity android:name=".EnglishBreakfastDetails.EnglisgDetails2" />
+        <activity android:name=".EngActivity2.EnglishActivity2" />
+        <activity android:name=".EnglishBreakfastDetails.EnglisgDetails1" />
+        <activity android:name=".EngActivity1.EnglishActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

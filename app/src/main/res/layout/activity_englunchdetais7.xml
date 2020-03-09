@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/englunch7"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Chef John's Shrimp and Grits"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+               android:text="Shrimp and grits is a very simple recipe, but make sure you have everything ready before you start cooking the shrimp. They only take a few minutes to sauté, so you don't have time to run and chop scallions or juice a lemon. Once everything is assembled, this recipe is a snap. To make things even easier, you can make the grits a bit ahead since they stay hot a very long time."
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Ingredients"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="4 slices bacon, cut into 1/4-inch pieces\n\n1/4 cup water\n\n2 tablespoons heavy whipping cream\n\n1/2 teaspoon salt, or to taste\n\n1 dash Worcestershire sauce\n\n4 cups water\n\n2 tablespoons butter\n\n1 teaspoon salt\n\n1 cup white grits\n\n1/2 cup shredded white Cheddar cheese\n\n1 pound shrimp, peeled and deveined\n\n1/2 teaspoon Cajun seasoning\n\n1 pinch cayenne pepper\n\n1 tablespoon minced jalapeno pepper\n\n2 tablespoons minced green onion\n\n3 cloves garlic, minced\n\n1 tablespoon chopped fresh parsley"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#00897B"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Directions"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+              android:text="Place bacon in a large skillet and cook over medium-high heat, turning occasionally, until almost crisp, 5 to 7 minutes. Remove from heat and transfer bacon to a dish, leaving drippings in the skillet.
+\n\nWhisk 1/4 cup water, cream, lemon juice, and Worcestershire sauce together in a bowl.
+\n\nStir 4 cups water, butter, and 1 teaspoon salt together in a pot; bring to a boil. Whisk grits into pot, bring to a simmer, reduce heat to low, and cook until grits are creamy, 20 to 25 minutes. Remove from heat and stir white Cheddar cheese into grits.
+\n\nPlace shrimp in a large bowl and season with Cajun seasoning, 1/2 teaspoon salt, black pepper, and a pinch of cayenne pepper.
+\n\nHeat skillet with bacon drippings over high heat. Cook shrimp in hot bacon fat in a single layer for 1 minute. Turn shrimp and add jalapeno; cook until fragrant, about 30 seconds. Stir cream mixture, bacon, green onion, and garlic to shrimp mixture; cook and stir, adding water as necessary to thin the sauce, until shrimp are cooked through, 3 to 4 minutes. Remove from heat and stir in parsley.
+\n\nLadle grits into a bowl and top with shrimp and sauce."
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

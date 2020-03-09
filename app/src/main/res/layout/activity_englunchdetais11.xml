@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/englunch11"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="School Lunchroom Cafeteria Rolls"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+               android:text="These rolls are JUST like the ones the cafeteria ladies make in the school lunch rooms! My 8-year-old daughter loves the cafeteria rolls and said my recipe was even better! You can't mess these up! They are super easy and everyone will want the recipe. We eat the leftovers for breakfast or put cheese and turkey in warmed rolls for a quick lunch!"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Ingredients"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+               android:text="3 cups warm water\n\n1 tablespoon white sugar\n\n2/3 cup white sugar\n\n3 (.25 ounce) envelopes active dry yeast\n\n1/4 cup milk2 eggs\n\n1 tablespoon salt\n\n10 cups all-purpose flour\n\n1/4 cup shortening\n\n1/4 cup butter, melted"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#00897B"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Directions"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+              android:text="In a large bowl, mix together the warm water and 1 tablespoon sugar. Sprinkle the yeast over the top, and let it stand for about 10 minutes, until the yeast is foamy.
+\n\nMix the milk, eggs and salt into the yeast. Measure the flour into a separate bowl, add 2/3 cup sugar, and crumble the shortening into it using your fingers until it is barely noticeable. Gradually stir the flour into the wet ingredients. Mix using a wooden spoon until the dough pulls away from the sides of the bowl and starts to form a ball around the spoon. Cover with a hot wet towel that has been wrung out, and set in a warm place to rise until double in bulk. This should take about 45 minutes.
+\n\nWhen the dough has risen, pour the melted butter over it, and knead for about 2 minutes. Let the dough rest for a few minutes, then roll out on a lightly floured surface to 1 inch thick. Use a knife to cut into 2 inch squares. Roll squares into balls, and place into greased round pans, spacing about 1 inch apart. Let rise again until doubled in size. You could also refrigerate the dough, and let it rise overnight for baking the next day.
+\n\nPreheat the oven to 400 degrees F (200 degrees C). Bake the rolls for about 12 minutes, until golden brown."
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
